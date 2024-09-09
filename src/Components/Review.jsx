@@ -11,7 +11,7 @@ const Review = () => {
       <div className="lg:flex lg:items-center gap-x-10">
         <div className="text-center lg:text-left lg:w-1/3">
           <img className="mx-auto " src={element} alt="element" />
-          <h1 className="font-extrabold text-3xl md:text-5xl mt-8">Client Review</h1>
+          <h1 className="font-extrabold text-3xl text-[#192239] md:text-5xl mt-8">Client Review</h1>
           <p className="mx-auto lg:mx-0 lg:w-[331px] font-paprika text-[16px] md:text-[18px] mt-8">
             People use digital devices instead of visiting physical shops,
             digital marketing campaigns are becoming more prevalent and

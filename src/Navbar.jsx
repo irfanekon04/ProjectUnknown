@@ -23,10 +23,10 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-orange-400 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-[#FF7628] text-[#192239] rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a  className="font-extrabold">Home</a>
+              <a className="font-extrabold">Home</a>
             </li>
             <li>
               <a className="font-extrabold">About</a>
@@ -40,7 +40,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a  className="font-extrabold">Services</a>
+              <a className="font-extrabold">Services</a>
               <ul className="p-2">
                 <li>
                   <a>Submenu 1</a>
@@ -58,11 +58,13 @@ const Navbar = () => {
       {/* center start */}
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal font-bold text-[20px] px-1">
-          <li>
-            <details>
-              <summary>Home</summary>
-              <ul className="p-2 font-semibold">
+        <ul className="menu menu-horizontal font-medium text-[#192239] text-[20px] px-1 ">
+          <li className="active:bg-white">
+            <details className="active:bg-white">
+              <summary className=" hover:text-[#FF7628] active:bg-white">
+                Home
+              </summary>
+              <ul className="p-2 bg-white ">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -74,8 +76,8 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>About</summary>
-              <ul className="p-2">
+              <summary className=" hover:text-[#FF7628]">About</summary>
+              <ul className="p-2 bg-white">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -87,8 +89,8 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>Services</summary>
-              <ul className="p-2">
+              <summary className=" hover:text-[#FF7628]">Services</summary>
+              <ul className="p-2 bg-white">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -100,8 +102,8 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>Portfolio</summary>
-              <ul className="p-2">
+              <summary className=" hover:text-[#FF7628]">Portfolio</summary>
+              <ul className="p-2 bg bg-white">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -113,8 +115,8 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>Blog</summary>
-              <ul className="p-2">
+              <summary className=" hover:text-[#FF7628]">Blog</summary>
+              <ul className="p-2 bg-white">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -129,7 +131,7 @@ const Navbar = () => {
 
       {/* End part */}
       <div className="navbar-end">
-        <a className="btn text-xl px-6 py-2 bg-[#FF7628] rounded-full text-white">
+        <a className="btn btn-xs lg:btn-md lg:text-xl lg:px-6 lg:py-2 bg-[#FF7628] rounded-full border-none hover:bg-[#FF7628] text-white">
           CONTACT US!
         </a>
       </div>

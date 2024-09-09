@@ -34,7 +34,7 @@ const Service = () => {
         <div className='max-w-screen-xl mx-auto py-28'>
             <div className='text-center mx-auto'>
             <img className='mx-auto' src={headerImg} alt="Header Image"/> 
-            <h2 className='font-extrabold text-[48px] text-center mx-auto'>Our Services</h2>
+            <h2 className='font-extrabold text-[48px] text-center text-[#192239] mx-auto'>Our Services</h2>
             <p className='font-paprika text-[18px] w-332px mt-4 text-center mx-auto' >
                 We have been providing great flooring solutions services.
             </p>

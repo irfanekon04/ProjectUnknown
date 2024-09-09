@@ -4,7 +4,7 @@ const Showcase = () => {
   return (
     <div className="">
       <div className="mx-auto text-center py-8 mt-8">
-        <h1 className="font-bold text-3xl md:text-4xl mt-5 mb-8">
+        <h1 className="font-bold text-3xl text-[#192239] md:text-4xl mt-5 mb-8">
           Work Showcase
         </h1>
       </div>

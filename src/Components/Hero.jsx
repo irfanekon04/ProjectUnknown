@@ -6,7 +6,7 @@ const Hero = () => {
       <section className="dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-            <h1 className="md:text-5xl text-[30px] text-center font-bold leading-none sm:text-6xl md:w-[686px] mx-auto">
+            <h1 className="md:text-5xl text-[30px]  font-bold font-sans leading-none sm:text-6xl md:w-[686px] mx-auto">
               We Are Digital <span className="text-[#FF7628]">Marketing</span>{" "}
               Agency
             </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="px-8 py-3 text-lg font-bold rounded-full bg-orange-500 text-white"
+                className="px-8 py-3 text-lg font-bold rounded-full bg-[#FF7628] text-white"
               >
                 Get Free Quoto
               </a>
