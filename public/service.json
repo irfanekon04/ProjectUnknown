@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "1",
+        "title": "Marketting Startagy",
+        "details": "Social Media has changed the way we interact & do business while creating",
+        "button": "Read more",
+        "image": "https://cdn-icons-png.freepik.com/256/10872/10872173.png?semt=ais_hybrid"
+    },
+    {
+        "_id": "2",
+        "title": "Social Marketing",
+        "details": "Social Media has changed the way we interact & do business while creating a new avenue.",
+        "button": "Read more",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Digital_Marketing_logo.png/1200px-Digital_Marketing_logo.png"
+    },
+    {
+        "_id": "3",
+        "title": "Content Marketing",
+        "details": "Content Marketing is the other fold of online advertisement. If you are looking to build",
+        "button": "Read more",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Digital_Marketing_logo.png/1200px-Digital_Marketing_logo.png"
+    }
+]
